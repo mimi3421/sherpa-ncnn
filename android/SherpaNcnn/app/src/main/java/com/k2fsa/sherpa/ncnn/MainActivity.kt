@@ -6,7 +6,7 @@ import android.media.AudioFormat
 import android.media.AudioRecord
 import android.media.MediaRecorder
 import android.os.Bundle
-import android.text.method.ScrollingMovementMethod
+// import android.text.method.ScrollingMovementMethod
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
         recordButton.setOnClickListener { onclick() }
 
         textView = findViewById(R.id.my_text)
-        textView.movementMethod = ScrollingMovementMethod()
+        // textView.movementMethod = ScrollingMovementMethod()
     }
 
     private fun onclick() {
