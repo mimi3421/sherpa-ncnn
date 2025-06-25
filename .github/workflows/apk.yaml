@@ -53,4 +53,5 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           file_glob: true
+          overwrite: true
           file: apks/*.apk
